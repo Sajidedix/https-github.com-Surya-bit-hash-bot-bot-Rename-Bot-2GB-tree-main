@@ -11,6 +11,7 @@ from asyncio import sleep
 from PIL import Image
 import os, time, re, random, asyncio
 
+DUMP_CHANNEL = -1001234567890  # Replace with your dump channel ID
 
 @Client.on_message(filters.private & (filters.document | filters.audio | filters.video))
 async def rename_start(client, message):
@@ -22,20 +23,19 @@ async def rename_start(client, message):
     try:
         await message.reply_text(
             text=f"**Please Enter New Filename...**\n\n**Old File Name** :- `{filename}`",
-	    reply_to_message_id=message.id,  
-	    reply_markup=ForceReply(True)
+            reply_to_message_id=message.id,  
+            reply_markup=ForceReply(True)
         )       
         await sleep(30)
     except FloodWait as e:
         await sleep(e.value)
         await message.reply_text(
             text=f"**Please Enter New Filename**\n\n**Old File Name** :- `{filename}`",
-	    reply_to_message_id=message.id,  
-	    reply_markup=ForceReply(True)
+            reply_to_message_id=message.id,  
+            reply_markup=ForceReply(True)
         )
     except:
         pass
-
 
 
 @Client.on_message(filters.private & filters.reply)
@@ -67,7 +67,6 @@ async def refunc(client, message):
         )
 
 
-
 @Client.on_callback_query(filters.regex("upload"))
 async def doc(bot, update):    
     # Creating Directory for Metadata
@@ -83,16 +82,16 @@ async def doc(bot, update):
     try:
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
     except Exception as e:
-        return await update.message.edit(f"Something Went Wrong Can't Able To Set Prefix Or Suffix 🥺 \n\n**Contact My Creator :** @CallAdminRobot\n\n**Error :** `{e}`")
+        return await update.message.edit(f"Something Went Wrong Can't Able To Set Prefix Or Suffix 🥺 \n\n**Contact My Creator :** @obito_10_2\n\n**Error :** `{e}`")
     
     file_path = f"downloads/{update.from_user.id}/{new_filename}"
     file = update.message.reply_to_message
 
-    ms = await update.message.edit("🚀 Try To Download...  ⚡")    
+    ms = await update.message.edit("📥 Trying To Download...")    
     try:
-     	path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram,progress_args=("🚀 Try To Downloading...  ⚡", ms, time.time()))                    
+        path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram, progress_args=("📥 Downloading...", ms, time.time()))                    
     except Exception as e:
-     	return await ms.edit(e)
+        return await ms.edit(e)
     
 
     # Metadata Adding Code
@@ -103,7 +102,7 @@ async def doc(bot, update):
         metadata_path = f"Metadata/{new_filename}"
         await add_metadata(path, metadata_path, metadata, ms)
     else:
-        await ms.edit("⏳ Mode Changing...  ⚡")
+        await ms.edit("🔀 Mode Changing...")
 
     duration = 0
     try:
@@ -142,38 +141,58 @@ async def doc(bot, update):
                  print(e)  
 
 
-    await ms.edit("💠 Try To Upload...  ⚡")
+    await ms.edit("📤 Trying To Upload...")
     type = update.data.split("_")[1]
     try:
         if type == "document":
-            await bot.send_document(
+            sent_message = await bot.send_document(
                 update.message.chat.id,
                 document=metadata_path if _bool_metadata else file_path,
                 thumb=ph_path, 
                 caption=caption, 
                 progress=progress_for_pyrogram,
-                progress_args=("💠 Try To Uploading...  ⚡", ms, time.time()))
+                progress_args=("📤 Uploading...", ms, time.time()))
+            
+            # Forward to dump channel
+            await bot.forward_messages(
+                chat_id=DUMP_CHANNEL,
+                from_chat_id=sent_message.chat.id,
+                message_ids=sent_message.id
+            )
 
         elif type == "video": 
-            await bot.send_video(
+            sent_message = await bot.send_video(
                 update.message.chat.id,
                 video=metadata_path if _bool_metadata else file_path,
                 caption=caption,
                 thumb=ph_path,
                 duration=duration,
                 progress=progress_for_pyrogram,
-                progress_args=("💠 Try To Uploading...  ⚡", ms, time.time()))
+                progress_args=("📤 Uploading...", ms, time.time()))
+            
+            # Forward to dump channel
+            await bot.forward_messages(
+                chat_id=DUMP_CHANNEL,
+                from_chat_id=sent_message.chat.id,
+                message_ids=sent_message.id
+            )
 
         elif type == "audio": 
-            await bot.send_audio(
+            sent_message = await bot.send_audio(
                 update.message.chat.id,
                 audio=metadata_path if _bool_metadata else file_path,
                 caption=caption,
                 thumb=ph_path,
                 duration=duration,
                 progress=progress_for_pyrogram,
-                progress_args=("💠 Try To Uploading...  ⚡", ms, time.time()))
-
+                progress_args=("📤 Uploading...", ms, time.time()))
+            
+            # Forward to dump channel
+            await bot.forward_messages(
+                chat_id=DUMP_CHANNEL,
+                from_chat_id=sent_message.chat.id,
+                message_ids=sent_message.id
+            )
 
     except Exception as e:          
         os.remove(file_path)
@@ -186,11 +205,3 @@ async def doc(bot, update):
         os.remove(ph_path)
     if file_path:
         os.remove(file_path)
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @JishuBotz
-# Developer @JishuDeveloper
