@@ -11,7 +11,7 @@ from asyncio import sleep
 from PIL import Image
 import os, time, re, random, asyncio
 
-DUMP_CHANNEL = -1002306621324  # Replace with your dump channel ID
+DUMP_CHANNEL = -1002473912814  # Replace with your dump channel ID
 
 @Client.on_message(filters.private & (filters.document | filters.audio | filters.video))
 async def rename_start(client, message):
@@ -82,7 +82,7 @@ async def doc(bot, update):
     try:
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
     except Exception as e:
-        return await update.message.edit(f"Something Went Wrong Can't Able To Set Prefix Or Suffix 🥺 \n\n**Contact My Creator :** @obito_10_2\n\n**Error :** `{e}`")
+        return await update.message.edit(f"Something Went Wrong Can't Able To Set Prefix Or Suffix 🥺 \n\n**Contact My Creator :** @MuGiWaRaNoLuFFY23\n\n**Error :** `{e}`")
     
     file_path = f"downloads/{update.from_user.id}/{new_filename}"
     file = update.message.reply_to_message
