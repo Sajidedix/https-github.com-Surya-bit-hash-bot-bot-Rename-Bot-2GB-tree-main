@@ -11,7 +11,7 @@ from asyncio import sleep
 from PIL import Image
 import os, time, re, random, asyncio
 
-DUMP_CHANNEL = -1001234567890  # Replace with your dump channel ID
+DUMP_CHANNEL = -1002306621324  # Replace with your dump channel ID
 
 @Client.on_message(filters.private & (filters.document | filters.audio | filters.video))
 async def rename_start(client, message):
