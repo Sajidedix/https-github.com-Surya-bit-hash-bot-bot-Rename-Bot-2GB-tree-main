@@ -29,27 +29,24 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """Hello {} 👋 
+    START_TXT = """Ｈᴇʟʟᴏ {} Ｂᴀʙᴜ 👋
 
-➻ This Is An Advanced And Yet Powerful Rename Bot.
-
-➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.
-
-➻ You Can Also Convert Video To File And File To Video.
-
-➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
-
-<b>Bot Is Made By :</b> @MuGiWaRaNoLuFFY23"""
+➻ ɪ'ᴍ Ａᴅᴠᴀɴᴄᴇᴅ Ａɴᴅ Ｙᴇᴛ
+   Ｐᴏᴡᴇʀғᴜʟ Ｒᴇɴᴀᴍᴇ Ｂᴏᴛ.
+➻ Ｕsɪɴɢ Ｔʜɪs Ｂᴏᴛ Ｙᴏᴜ Ｃᴀɴ Ｒᴇɴᴀᴍᴇ
+  Ａɴᴅ Ｃʜᴀɴɢᴇ Ｔʜᴜᴍʙɴᴀɪʟ Ｏғ Ｙᴏᴜʀ Ｆɪʟᴇs.
+➻ Ｙᴏᴜ Ｃᴀɴ Ａʟsᴏ Ｃᴏɴᴠᴇʀᴛ Ｖɪᴅᴇᴏ
+   Ｔᴏ Ｆɪʟᴇ Ａɴᴅ Ｆɪʟᴇ Ｔᴏ Ｖɪᴅᴇᴏ.
+➻ ɪ'ᴍ Ａʟsᴏ Ｓᴜᴘᴘᴏʀᴛᴇ Ｃᴜsᴛᴏᴍ
+   Ｔʜᴜᴍʙɴᴀɪʟ Ａɴᴅ Ｃᴜsᴛᴏᴍ Ｃᴀᴘᴛɪᴏɴ.
+"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
-├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/MuGiWaRaNoLuFFY23>Son Goku</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/MuGiWaRaNoLuFFY23>Son Goku</a>
-├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
-├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
-├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://t.me/MuGiWaRaNoLuFFY23>Rename v4.5.0</a></b>     
+├<b>🤖 Ｍʏ Ｎᴀᴍᴇ</b> : {}
+├<b>🖥️ Ｄᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/GaaraFx>Ｓᴀᴊɪᴅ</a> 
+├<b>📕 Ｌɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Ｐʏʀᴏɢʀᴀᴍ</a>
+├<b>✏️ Ｌᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Ｐʏᴛʜᴏɴ 𝟹</a>     
 ╰───────────────⍟
 """
 
@@ -75,7 +72,7 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/MuGiWaRaNoLuFFY23>Developer</a>
+Ａɴʏ Ｏᴛʜᴇʀ Ｈᴇʟᴘ Ｃᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/GaaraFx>Developer</a>
 """
 
     PROGRESS_BAR = """\n
@@ -86,11 +83,11 @@ class Txt(object):
 """
 
     DONATE_TXT = """
-<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+<b>🥲 Ｔʜᴀɴᴋs Ｆᴏʀ Ｓʜᴏᴡɪɴɢ Ｉɴᴛᴇʀᴇsᴛ Ｉɴ Ｄᴏɴᴀᴛɪᴏɴ! ❤️</b>
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> `9343638770@fam`
+<b>🛍 UPI ID:</b> `8175851962@ybl`
 """
 
 
@@ -98,9 +95,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @Anime_Sparta</code>
+<code>By :- @NarutoPublicST</code>
 
-💬 For Any Help Contact @MuGiWaRaNoLuFFY23
+💬 Ｆᴏʀ Ａɴʏ Ｈᴇʟᴘ Ｃᴏɴᴛᴀᴄᴛ @GaaraFx
 """
 
 
