@@ -30,7 +30,6 @@ class Config(object):
 class Txt(object):
     # part of text configuration
     START_TXT = """Hᴇʟʟᴏ {} Bᴀʙᴜ 👋
-
 ╭─────────────────⋗
 ├⋗ I'ᴍ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ
 ├⋗ Pᴏᴡᴇʀғᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.
