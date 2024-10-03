@@ -13,8 +13,8 @@ async def start(client, message):
     button = InlineKeyboardMarkup([
         [InlineKeyboardButton('✦ UᴘᴅᴀᴛE ✦', url='https://t.me/NarutoPublicST'),
         InlineKeyboardButton('✦ SᴜᴘᴘᴏʀT ✦', url='https://t.me/Sandvillage1')],
-        [InlineKeyboardButton('✦ AʙᴏᴜT ✦', callback_data='about'),
-        InlineKeyboardButton('✦ HᴇʟP ✦', callback_data='help')],
+        [InlineKeyboardButton('✦ Aʙᴏᴜᴛ ✦', callback_data='about'),
+        InlineKeyboardButton('✦ Hᴇʟᴘ✦', callback_data='help')],
         [InlineKeyboardButton("🌀 NᴀʀᴜᴛO SʜɪᴘᴘᴜᴅᴇN 🌀", url='https://t.me/+ama99OO1zs5kOWM1')]
     ])
     if Config.START_PIC:
@@ -33,8 +33,8 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup([
                 [InlineKeyboardButton('✦ UᴘᴅᴀᴛE ✦', url='https://t.me/NarutoPublicST'),
                 InlineKeyboardButton('✦ SᴜᴘᴘᴏʀT ✦', url='https://t.me/Sandvillage1')],
-                [InlineKeyboardButton('✦ AʙᴏᴜT ✦', callback_data='about'),
-                InlineKeyboardButton('✦ HᴇʟP ✦', callback_data='help')],
+                [InlineKeyboardButton('✦ Aʙᴏᴜᴛ ✦', callback_data='about'),
+                InlineKeyboardButton('✦ Hᴇʟᴘ ✦', callback_data='help')],
                 [InlineKeyboardButton("🌀 NᴀʀᴜᴛO SʜɪᴘᴘᴜᴅᴇN 🌀", url='https://t.me/+ama99OO1zs5kOWM1')]
             ])
         )
