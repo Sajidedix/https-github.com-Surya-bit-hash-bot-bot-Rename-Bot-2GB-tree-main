@@ -53,16 +53,16 @@ class Txt(object):
     HELP_TXT = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ</u></b>
   
-➪ /start - Start The Bot And Send Any Photo To Automatically Set Thumbnail.
-➪ /del_thumb - Use This Command To Delete Your Old Thumbnail.
-➪ /view_thumb - Use This Command To View Your Current Thumbnail.
+➪ /start - sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ sᴇɴᴅ ᴀɴʏ ᴘʜᴏᴛᴏ ᴛᴏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
+➪ /del_thumb - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴏʟᴅ ᴛʜᴜᴍʙɴᴀɪʟ.
+➪ /view_thumb - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
 
 📑 <b><u>How To Set Custom Caption</u></b>
 
-➪ /set_caption - Use This Command To Set A Custom Caption
-➪ /see_caption - Use This Command To View Your Custom Caption
-➪ /del_caption - Use This Command To Delete Your Custom Caption
-➪ Example - <code>/set_caption 📕 Name ➠ : {filename}
+➪ /set_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴛ A Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+➪ /see_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+➪ /del_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+➪ Exᴀᴍᴘʟᴇ - <code>/Sᴇᴛ_Cᴀᴘᴛɪᴏɴ 📕 Nᴀᴍᴇ ➠ : {filename}
 
 🔗 Sɪᴢᴇ ➠ : {filesize} 
 
