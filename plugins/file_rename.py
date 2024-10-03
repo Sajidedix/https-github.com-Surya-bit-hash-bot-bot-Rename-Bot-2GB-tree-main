@@ -11,14 +11,14 @@ from asyncio import sleep
 from PIL import Image
 import os, time, re, random, asyncio
 
-DUMP_CHANNEL = -1002473912814  # Replace with your dump channel ID
+DUMP_CHANNEL = -1002303475949  # Replace with your dump channel ID
 
 @Client.on_message(filters.private & (filters.document | filters.audio | filters.video))
 async def rename_start(client, message):
     file = getattr(message, message.media.value)
     filename = file.file_name  
     if file.file_size > 2000 * 1024 * 1024:
-         return await message.reply_text("Sorry Bro This Bot Doesn't Support Uploading Files Bigger Than 2GB")
+         return await message.reply_text("Sᴏʀʀʏ, Tʜɪs Bᴏᴛ Dᴏᴇsɴ'ᴛ Sᴜᴘᴘᴏʀᴛ Uᴘʟᴏᴀᴅɪɴɢ Fɪʟᴇs Bɪɢɢᴇʀ Tʜᴀɴ 2GB")
 
     try:
         await message.reply_text(
@@ -82,7 +82,7 @@ async def doc(bot, update):
     try:
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
     except Exception as e:
-        return await update.message.edit(f"Something Went Wrong Can't Able To Set Prefix Or Suffix 🥺 \n\n**Contact My Creator :** @MuGiWaRaNoLuFFY23\n\n**Error :** `{e}`")
+        return await update.message.edit(f"Something Went Wrong Can't Able To Set Prefix Or Suffix 🥺 \n\n**Contact My Creator :** @http://t.me/GaaraFx\n\n**Error :** `{e}`")
     
     file_path = f"downloads/{update.from_user.id}/{new_filename}"
     file = update.message.reply_to_message
