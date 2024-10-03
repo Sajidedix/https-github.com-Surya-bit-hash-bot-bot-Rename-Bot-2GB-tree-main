@@ -11,11 +11,11 @@ async def start(client, message):
     user = message.from_user
     await jishubotz.add_user(client, message)                
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton('ＵＰＤＡＴＥ ', url='https://t.me/NarutoPublicST'),
-        InlineKeyboardButton('ＳＵＰＰＯＲＴ', url='https://t.me/Sandvillage1')],
-        [InlineKeyboardButton('ＡＢＯＵＴ', callback_data='about'),
-        InlineKeyboardButton('ＨＥＬＰ', callback_data='help')],
-        [InlineKeyboardButton("ＤＥＶＥＬＯＰＥＲ", url='http://t.me/GaaraFx')]
+        [InlineKeyboardButton('✦ Uᴘᴅᴀᴛᴇ ✦', url='https://t.me/NarutoPublicST'),
+        InlineKeyboardButton('✦ Sᴜᴘᴘᴏʀᴛ ✦', url='https://t.me/Sandvillage1')],
+        [InlineKeyboardButton('✦ Aʙᴏᴜᴛ ✦', callback_data='about'),
+        InlineKeyboardButton('✦ Hᴇʟᴘ ✦', callback_data='help')],
+        [InlineKeyboardButton("✦ Dᴇᴠᴇʟᴏᴘᴇʀ ✦", url='http://t.me/GaaraFx')]
     ])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -31,11 +31,11 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton('ＵＰＤＡＴＥ', url='https://t.me/NarutoPublicST'),
-                InlineKeyboardButton('ＳＵＰＰＯＲＴ', url='https://t.me/Sandvillage1')],
-                [InlineKeyboardButton('ＡＢＯＵＴ', callback_data='about'),
-                InlineKeyboardButton('ＨＥＬＰ', callback_data='help')],
-                [InlineKeyboardButton("ＤＥＶＥＬＯＰＥＲ", url='http://t.me/GaaraFx')]
+                [InlineKeyboardButton('✦ Uᴘᴅᴀᴛᴇ ✦', url='https://t.me/NarutoPublicST'),
+                InlineKeyboardButton('✦ Sᴜᴘᴘᴏʀᴛ ✦', url='https://t.me/Sandvillage1')],
+                [InlineKeyboardButton('✦ Aʙᴏᴜᴛ ✦', callback_data='about'),
+                InlineKeyboardButton('✦ Hᴇʟᴘ ✦', callback_data='help')],
+                [InlineKeyboardButton("✦ Dᴇᴠᴇʟᴏᴘᴇʀ ✦", url='http://t.me/GaaraFx')]
             ])
         )
     elif data == "help":
