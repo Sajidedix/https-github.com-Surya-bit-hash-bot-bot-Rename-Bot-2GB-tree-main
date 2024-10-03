@@ -31,27 +31,25 @@ class Txt(object):
     # part of text configuration
     START_TXT = """Ｈᴇʟʟᴏ {} Ｂᴀʙᴜ 👋
 
-  ɪ'ᴍ Ａᴅᴠᴀɴᴄᴇᴅ Ａɴᴅ Ｙᴇᴛ
-  Ｐᴏᴡᴇʀғᴜʟ Ｒᴇɴᴀᴍᴇ Ｂᴏᴛ.
-  Ｕsɪɴɢ Ｔʜɪs Ｂᴏᴛ Ｙᴏᴜ Ｃᴀɴ Ｒᴇɴᴀᴍᴇ
-  Ａɴᴅ Ｃʜᴀɴɢᴇ Ｔʜᴜᴍʙɴᴀɪʟ Ｏғ Ｙᴏᴜʀ Ｆɪʟᴇs.
-  Ｙᴏᴜ Ｃᴀɴ Ａʟsᴏ Ｃᴏɴᴠᴇʀᴛ Ｖɪᴅᴇᴏ
-  Ｔᴏ Ｆɪʟᴇ Ａɴᴅ Ｆɪʟᴇ Ｔᴏ Ｖɪᴅᴇᴏ.
-  ɪ'ᴍ Ａʟsᴏ Ｓᴜᴘᴘᴏʀᴛᴇ Ｃᴜsᴛᴏᴍ
-  Ｔʜᴜᴍʙɴᴀɪʟ Ａɴᴅ Ｃᴜsᴛᴏᴍ Ｃᴀᴘᴛɪᴏɴ.
+  I'ᴍ Ａᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ
+  Pᴏᴡᴇʀғᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.
+  Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ
+  Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇs.
+  Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ
+  Tᴏ Fɪʟᴇ Aɴᴅ Aɪʟᴇ  Tᴏ Vɪᴅᴇᴏ.
 """
 
     ABOUT_TXT = """
 ╭───────────⋗
-├⋗<b>🤖 Ｍʏ Ｎᴀᴍᴇ</b> : {}
-├⋗<b>🖥️ Ｄᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/GaaraFx>Ｓᴀᴊɪᴅ</a> 
-├⋗<b>📕 Ｌɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Ｐʏʀᴏɢʀᴀᴍ</a>
-├⋗<b>✏️ Ｌᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Ｐʏᴛʜᴏɴ 𝟹</a>     
+├⋗<b>🤖 Mʏ Nᴀᴍᴇ</b> : {}
+├⋗<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/GaaraFx>Sᴀᴊɪᴅ</a> 
+├⋗<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
+├⋗<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Pʏᴛʜᴏɴ 𝟹</a>     
 ╰─────────────────⋗
 """
 
     HELP_TXT = """
-🌌 <b><u>How To Set Thumbnail</u></b>
+🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ</u></b>
   
 ➪ /start - Start The Bot And Send Any Photo To Automatically Set Thumbnail.
 ➪ /del_thumb - Use This Command To Delete Your Old Thumbnail.
@@ -64,28 +62,28 @@ class Txt(object):
 ➪ /del_caption - Use This Command To Delete Your Custom Caption
 ➪ Example - <code>/set_caption 📕 Name ➠ : {filename}
 
-🔗 Size ➠ : {filesize} 
+🔗 Sɪᴢᴇ ➠ : {filesize} 
 
-⏰ Duration ➠ : {duration}</code>
+⏰ Dᴜʀᴀᴛɪᴏɴ ➠ : {duration}</code>
 
-✏️ <b><u>How To Rename A File</u></b>
+✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 
-➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
+➪ Sᴇɴᴛ Aɴʏ Fɪʟᴇ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ Sᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ].           
 
 Ａɴʏ Ｏᴛʜᴇʀ Ｈᴇʟᴘ Ｃᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/GaaraFx>Developer</a>
 """
 
     PROGRESS_BAR = """\n
- <b>🔗 Size :</b> {1} | {2}
-️ <b>⏳️ Done :</b> {0}%
- <b>🚀 Speed :</b> {3}/s
+ <b>🔗 Sɪᴢᴇ :</b> {1} | {2}
+️ <b>⏳️ Dᴏɴᴇ :</b> {0}%
+ <b>🚀 Sᴘᴇᴇᴅ :</b> {3}/s
 ️ <b>⏰️ ETA :</b> {4}
 """
 
     DONATE_TXT = """
-<b>🥲 Ｔʜᴀɴᴋs Ｆᴏʀ Ｓʜᴏᴡɪɴɢ Ｉɴᴛᴇʀᴇsᴛ Ｉɴ Ｄᴏɴᴀᴛɪᴏɴ! ❤️</b>
+<b>🥲 Tʜᴀɴᴋs Fᴏʀ Sʜᴏᴡɪɴɢ Iɴᴛᴇʀᴇsᴛ Iɴ Dᴏɴᴀᴛɪᴏɴ! ❤️</b>
 
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
+Iғ Yᴏᴜ Lɪᴋᴇ Mʏ Bᴏᴛs & Pʀᴏᴊᴇᴄᴛs, Yᴏᴜ Cᴀɴ 🎁 Dᴏɴᴀᴛᴇ Mᴇ Aɴʏ Aᴍᴏᴜɴᴛ Fʀᴏᴍ 1𝟶 Rs Uᴘᴛᴜ Yᴏᴜʀ Cʜᴏɪᴄᴇ.
 
 <b>🛍 UPI ID:</b> `8175851962@ybl`
 """
@@ -93,11 +91,11 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
     SEND_METADATA = """<b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
 
-For Example :-
+Fᴏʀ Exᴀᴍᴘʟᴇ :-
 
-<code>By :- @NarutoPublicST</code>
+<code>Bʏ :- @NarutoPublicST</code>
 
-💬 Ｆᴏʀ Ａɴʏ Ｈᴇʟᴘ Ｃᴏɴᴛᴀᴄᴛ @GaaraFx
+💬 Fᴏʀ Aɴʏ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ @GaaraFx
 """
 
 
