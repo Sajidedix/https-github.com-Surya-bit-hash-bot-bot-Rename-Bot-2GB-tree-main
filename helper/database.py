@@ -17,7 +17,7 @@ class Database:
             prefix = None,
             suffix = None,
             metadata = False,
-            metadata_code = "By :- @Madflix_Bots"
+            metadata_code = "By :- @NarutoPublicST"
         )
 
     async def add_user(self, b, m):
