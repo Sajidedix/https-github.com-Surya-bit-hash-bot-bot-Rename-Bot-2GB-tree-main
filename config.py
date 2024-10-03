@@ -42,12 +42,12 @@ class Txt(object):
 """
 
     ABOUT_TXT = """
-╭───────────────⍟
-├<b>🤖 Ｍʏ Ｎᴀᴍᴇ</b> : {}
-├<b>🖥️ Ｄᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/GaaraFx>Ｓᴀᴊɪᴅ</a> 
-├<b>📕 Ｌɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Ｐʏʀᴏɢʀᴀᴍ</a>
-├<b>✏️ Ｌᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Ｐʏᴛʜᴏɴ 𝟹</a>     
-╰───────────────⍟
+╭───────────⍟
+├⋗<b>🤖 Ｍʏ Ｎᴀᴍᴇ</b> : {}
+├⋗<b>🖥️ Ｄᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/GaaraFx>Ｓᴀᴊɪᴅ</a> 
+├⋗<b>📕 Ｌɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Ｐʏʀᴏɢʀᴀᴍ</a>
+├⋗<b>✏️ Ｌᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Ｐʏᴛʜᴏɴ 𝟹</a>     
+╰─────────────────⍟
 """
 
     HELP_TXT = """
