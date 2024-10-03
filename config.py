@@ -32,7 +32,7 @@ class Txt(object):
     START_TXT = """Hᴇʟʟᴏ {} Bᴀʙᴜ 👋
 
 ╭─────────────────⋗
-├⋗ I'ᴍ Ａᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ
+├⋗ I'ᴍ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ
 ├⋗ Pᴏᴡᴇʀғᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.
 ├⋗ Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ
 ├⋗ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇs.
@@ -72,7 +72,7 @@ class Txt(object):
 
 ➪ Sᴇɴᴛ Aɴʏ Fɪʟᴇ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ Sᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ].           
 
-Ａɴʏ Ｏᴛʜᴇʀ Ｈᴇʟᴘ Ｃᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/GaaraFx>Developer</a>
+Aɴʏ Oᴛʜᴇʀ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/GaaraFx>Developer</a>
 """
 
     PROGRESS_BAR = """\n
