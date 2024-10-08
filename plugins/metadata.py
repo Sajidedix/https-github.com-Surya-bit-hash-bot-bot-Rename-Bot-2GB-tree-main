@@ -47,10 +47,10 @@ async def query_metadata(bot: Client, query: CallbackQuery):
             try:
                 metadata = await bot.ask(text=Txt.SEND_METADATA, chat_id=query.from_user.id, filters=filters.text, timeout=30, disable_web_page_preview=True, reply_to_message_id=query.message.id)
             except ListenerTimeout:
-                await query.message.reply_text("⚠️ Eʀʀᴏʀ !!\n\n** Rᴇǫᴜᴇsᴛ Tɪᴍᴇᴅ Oᴜᴛ.**\n\nRestart By Using /metadata", reply_to_message_id=query.message.id)
+                await query.message.reply_text("⚠️ Eʀʀᴏʀ !!\n\n**Rᴇǫᴜᴇsᴛ Tɪᴍᴇᴅ Oᴜᴛ.**\n\n Rᴇsᴛᴀʀᴛ Bʏ Usɪɴɢ /metadata", reply_to_message_id=query.message.id)
                 return
             print(metadata.text)
-            ms = await query.message.reply_text("**Please Wait...**", reply_to_message_id=metadata.id)
+            ms = await query.message.reply_text("**Pʟᴇᴀsᴇ Wᴀɪᴛ ...**", reply_to_message_id=metadata.id)
             await jishubotz.set_metadata_code(query.from_user.id, metadata_code=metadata.text)
             await ms.edit("**Yᴏᴜʀ Mᴇᴛᴀᴅᴀᴛᴀ Cᴏᴅᴇ Sᴇᴛ Sᴜᴄᴄᴇssғᴜʟʟy ✅**")
         except Exception as e:
