@@ -28,7 +28,7 @@ async def forces_sub(client, message):
     try:
         user = await client.get_chat_member(Config.FORCE_SUB, message.from_user.id)    
         if user.status == enums.ChatMemberStatus.BANNED:                                   
-            return await client.send_message(message.from_user.id, text="Sorry You Are Banned To Use Me")  
+            return await client.send_message(message.from_user.id, text="Sᴏʀʀʏ Yᴏᴜ Aʀᴇ Bᴀɴɴᴇᴅ Mᴏ Msᴇ Mᴇ")  
     except UserNotParticipant:                       
         return await message.reply_text(text=text,quote=True, reply_markup=InlineKeyboardMarkup(buttons))
     return await message.reply_text(text=text,quote=True, reply_markup=InlineKeyboardMarkup(buttons))
