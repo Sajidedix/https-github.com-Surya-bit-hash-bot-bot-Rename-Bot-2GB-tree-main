@@ -82,14 +82,14 @@ async def doc(bot, update):
     try:
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
     except Exception as e:
-        return await update.message.edit(f"Something Went Wrong Can't Able To Set Prefix Or Suffix 🥺 \n\n**Contact My Creator :** @http://t.me/GaaraFx\n\n**Error :** `{e}`")
+        return await update.message.edit(f"Sᴏᴍᴇᴛʜɪɴɢ Wᴇɴᴛ Wʀᴏɴɢ Cᴀɴ'ᴛ Aʙʟᴇ Tᴏ Sᴇᴛ Pʀᴇғɪx Oʀ Sᴜғғɪx 🥺 \n\n**Cᴏɴᴛᴀᴄᴛ Mʏ Cʀᴇᴀᴛᴏʀ :** @http://t.me/GaaraFx\n\n**Eʀʀᴏʀ :** `{e}`")
     
     file_path = f"downloads/{update.from_user.id}/{new_filename}"
     file = update.message.reply_to_message
 
-    ms = await update.message.edit("📥 Trying To Download...")    
+    ms = await update.message.edit("📥 Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ...")    
     try:
-        path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram, progress_args=("📥 Downloading...", ms, time.time()))                    
+        path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram, progress_args=("📥 Dᴏᴡɴʟᴏᴀᴅɪɴɢ...", ms, time.time()))                    
     except Exception as e:
         return await ms.edit(e)
     
@@ -102,7 +102,7 @@ async def doc(bot, update):
         metadata_path = f"Metadata/{new_filename}"
         await add_metadata(path, metadata_path, metadata, ms)
     else:
-        await ms.edit("🔀 Mode Changing...")
+        await ms.edit("🔀 Mᴏᴅᴇ Cʜᴀɴɢɪɴɢ...")
 
     duration = 0
     try:
@@ -141,7 +141,7 @@ async def doc(bot, update):
                  print(e)  
 
 
-    await ms.edit("📤 Trying To Upload...")
+    await ms.edit("📤 Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅ...")
     type = update.data.split("_")[1]
     try:
         if type == "document":
@@ -151,7 +151,7 @@ async def doc(bot, update):
                 thumb=ph_path, 
                 caption=caption, 
                 progress=progress_for_pyrogram,
-                progress_args=("📤 Uploading...", ms, time.time()))
+                progress_args=("📤 Uᴘʟᴏᴀᴅɪɴɢ...", ms, time.time()))
             
             # Forward to dump channel
             await bot.forward_messages(
@@ -168,7 +168,7 @@ async def doc(bot, update):
                 thumb=ph_path,
                 duration=duration,
                 progress=progress_for_pyrogram,
-                progress_args=("📤 Uploading...", ms, time.time()))
+                progress_args=("📤 Uᴘʟᴏᴀᴅɪɴɢ...", ms, time.time()))
             
             # Forward to dump channel
             await bot.forward_messages(
@@ -185,7 +185,7 @@ async def doc(bot, update):
                 thumb=ph_path,
                 duration=duration,
                 progress=progress_for_pyrogram,
-                progress_args=("📤 Uploading...", ms, time.time()))
+                progress_args=("📤 Uᴘʟᴏᴀᴅɪɴɢ...", ms, time.time()))
             
             # Forward to dump channel
             await bot.forward_messages(
@@ -198,7 +198,7 @@ async def doc(bot, update):
         os.remove(file_path)
         if ph_path:
             os.remove(ph_path)
-        return await ms.edit(f"**Error :** `{e}`")    
+        return await ms.edit(f"**Eʀʀᴏʀ :** `{e}`")    
  
     await ms.delete() 
     if ph_path:
