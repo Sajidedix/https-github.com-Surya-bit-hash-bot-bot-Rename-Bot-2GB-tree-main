@@ -15,7 +15,7 @@ OFF = [[InlineKeyboardButton('Mᴇᴛᴀᴅᴀᴛᴀ Oғғ ❌', callback_data='
 @Client.on_message(filters.private & filters.command('metadata'))
 async def handle_metadata(bot: Client, message: Message):
 
-    ms = await message.reply_text("**Please Wait...**", reply_to_message_id=message.id)
+    ms = await message.reply_text("**Pʟᴇᴀsᴇ Wᴀɪᴛ...**", reply_to_message_id=message.id)
     bool_metadata = await jishubotz.get_metadata(message.from_user.id)
     user_metadata = await jishubotz.get_metadata_code(message.from_user.id)
     await ms.delete()
