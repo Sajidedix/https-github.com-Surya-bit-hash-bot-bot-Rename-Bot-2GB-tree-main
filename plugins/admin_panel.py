@@ -22,7 +22,7 @@ async def get_stats(bot, message):
     st = await message.reply('**Processing The Details.....**')    
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await st.edit(text=f"**--Bot Status--** \n\n**⌚ Bot Uptime:** `{uptime}` \n**🐌 Current Ping:** `{time_taken_s:.3f} ms` \n**👭 Total Users:** `{total_users}`")
+    await st.edit(text=f"**--Bᴏᴛ Sᴛᴀᴛᴜs 📊--** \n\n**🕗 Bᴏᴛ Uᴘᴛɪᴍᴇ:** `{uptime}` \n**🚀 Cᴜʀʀᴇɴᴛ Pɪɴɢ:** `{time_taken_s:.3f} ms` \n**👥 Tᴏᴛᴀʟ Usᴇʀs:** `{total_users}`")
 
 
 
@@ -38,7 +38,7 @@ async def restart_bot(bot, message):
 @Client.on_message(filters.private & filters.command(["ping", "p"]))
 async def ping(_, message):
     start_t = time.time()
-    rm = await message.reply_text("Pinging....")
+    rm = await message.reply_text("Pɪɴɢɪɴɢ....")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
     await rm.edit(f"Pɪɴɢ 🚀\n{time_taken_s:.3f} ms")
