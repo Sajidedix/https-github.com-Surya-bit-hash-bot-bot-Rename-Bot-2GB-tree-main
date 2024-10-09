@@ -86,7 +86,7 @@ Aɴʏ Oᴛʜᴇʀ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/GaaraFx>De
 
 Iғ Yᴏᴜ Lɪᴋᴇ Mʏ Bᴏᴛs & Pʀᴏᴊᴇᴄᴛs, Yᴏᴜ Cᴀɴ 🎁 Dᴏɴᴀᴛᴇ Mᴇ Aɴʏ Aᴍᴏᴜɴᴛ Fʀᴏᴍ 1𝟶 Rs Uᴘᴛᴜ Yᴏᴜʀ Cʜᴏɪᴄᴇ.
 
-<b>🛍 UPI ID:</b> `8175851962@ybl`
+<b>🛍 UPI ID:</b> `sajideditz27@okhdfcbank`
 """
 
 
