@@ -14,7 +14,7 @@ async def start(client, message):
         [InlineKeyboardButton('✦ UᴘᴅᴀᴛE ✦', url='https://t.me/NarutoPublicST'),
         InlineKeyboardButton('✦ SᴜᴘᴘᴏʀT ✦', url='https://t.me/Sandvillage1')],
         [InlineKeyboardButton('✦ Aʙᴏᴜᴛ ✦', callback_data='about'),
-        InlineKeyboardButton('✦ Hᴇʟᴘ✦', callback_data='help')],
+        InlineKeyboardButton('✦ Hᴇʟᴘ ✦', callback_data='help')],
         [InlineKeyboardButton("🌀 NᴀʀᴜᴛO SʜɪᴘᴘᴜᴅᴇN 🌀", url='https://t.me/Naruto_Public')]
     ])
     if Config.START_PIC:
