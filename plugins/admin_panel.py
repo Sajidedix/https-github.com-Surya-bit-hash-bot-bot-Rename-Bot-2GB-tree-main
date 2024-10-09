@@ -19,7 +19,7 @@ async def get_stats(bot, message):
     total_users = await jishubotz.total_users_count()
     uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - bot.uptime))    
     start_t = time.time()
-    st = await message.reply('**Processing The Details.....**')    
+    st = await message.reply('**Pʀᴏᴄᴇssɪɴɢ Tʜᴇ Dᴇᴛᴀɪʟs.....**')    
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
     await st.edit(text=f"**--Bᴏᴛ Sᴛᴀᴛᴜs 📊--** \n\n**🕗 Bᴏᴛ Uᴘᴛɪᴍᴇ:** `{uptime}` \n**🚀 Cᴜʀʀᴇɴᴛ Pɪɴɢ:** `{time_taken_s:.3f} ms` \n**👥 Tᴏᴛᴀʟ Usᴇʀs:** `{total_users}`")
