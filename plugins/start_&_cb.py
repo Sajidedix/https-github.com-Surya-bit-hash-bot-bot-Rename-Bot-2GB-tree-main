@@ -53,7 +53,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🤖 Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ 🤖", url="https://t.me/Anime_Builder_bot")],
+                [InlineKeyboardButton("▶️ Yᴏᴜ Tᴜʙᴇ ▶️", url="https://youtube.com/@lyrics__1m")],
                 [InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")]
             ])            
