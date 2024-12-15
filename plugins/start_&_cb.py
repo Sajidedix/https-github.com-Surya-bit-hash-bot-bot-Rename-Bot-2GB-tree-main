@@ -11,11 +11,11 @@ async def start(client, message):
     user = message.from_user
     await jishubotz.add_user(client, message)                
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton('✦ UᴘᴅᴀᴛE ✦', url='https://t.me/NarutoPublicST'),
-        InlineKeyboardButton('✦ SᴜᴘᴘᴏʀT ✦', url='https://t.me/GaaraFx')],
-        [InlineKeyboardButton('✦ Aʙᴏᴜᴛ ✦', callback_data='about'),
-        InlineKeyboardButton('✦ Hᴇʟᴘ ✦', callback_data='help')],
-        [InlineKeyboardButton("🌀 NᴀʀᴜᴛO SʜɪᴘᴘᴜᴅᴇN 🌀", url='https://t.me/+ama99OO1zs5kOWM1')]
+        [InlineKeyboardButton('᪥ ᴜᴘᴅᴀᴛᴇ ᪥', url='https://t.me/NarutoPublicST'),
+        InlineKeyboardButton('᪥ sᴜᴘᴘᴏʀᴛ ᪥', url='https://t.me/SandVillage1')],
+        [InlineKeyboardButton('᪥ ᴀʙᴏᴜᴛ ᪥', callback_data='about'),
+        InlineKeyboardButton('᪥ ʜᴇʟᴘ ᪥', callback_data='help')],
+        [InlineKeyboardButton("᯽ ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ ᯽", url='https://t.me/+ama99OO1zs5kOWM1')]
     ])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -31,11 +31,11 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton('✦ UᴘᴅᴀᴛE ✦', url='https://t.me/NarutoPublicST'),
-                InlineKeyboardButton('✦ SᴜᴘᴘᴏʀT ✦', url='https://t.me/Sandvillage1')],
-                [InlineKeyboardButton('✦ Aʙᴏᴜᴛ ✦', callback_data='about'),
-                InlineKeyboardButton('✦ Hᴇʟᴘ ✦', callback_data='help')],
-                [InlineKeyboardButton("🌀 NᴀʀᴜᴛO SʜɪᴘᴘᴜᴅᴇN 🌀", url='https://t.me/Naruto_Public')]
+                [InlineKeyboardButton('᪥ ᴜᴘᴅᴀᴛᴇ ᪥', url='https://t.me/NarutoPublicST'),
+                InlineKeyboardButton('᪥ sᴜᴘᴘᴏʀᴛ ᪥', url='https://t.me/SandVillage1')],
+                [InlineKeyboardButton('᪥ ᴀʙᴏᴜᴛ ᪥', callback_data='about'),
+                InlineKeyboardButton('᪥ ʜᴇʟᴘ ᪥', callback_data='help')],
+                [InlineKeyboardButton("᯽ ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ ᯽", url='https://t.me/Naruto_Public')]
             ])
         )
     elif data == "help":
@@ -43,9 +43,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.HELP_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("✦ DᴇᴠᴇʟᴏᴘᴇR ✦", url="http://t.me/GaaraFx")],
-                [InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")]
+                [InlineKeyboardButton("᯽ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᯽", url="http://t.me/GaaraFx")],
+                [InlineKeyboardButton("⪻ ʙᴀᴄᴋ", callback_data = "start"),
+                InlineKeyboardButton("ᴄʟᴏsᴇ ⪼", callback_data = "close")]
             ])            
         )
     elif data == "about":
@@ -53,9 +53,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("▶️ Yᴏᴜ Tᴜʙᴇ ▶️", url="https://youtube.com/@lyrics__1m")],
-                [InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")]
+                [InlineKeyboardButton("᯽ ʏᴏᴜ ᴛᴜʙᴇ ᯽", url="https://youtube.com/@lyrics__1m")],
+                [InlineKeyboardButton("⪻ ʙᴀᴄᴋ", callback_data = "start"),
+                InlineKeyboardButton("ᴄʟᴏsᴇ ⪼", callback_data = "close")]
             ])            
         )
     elif data == "close":
@@ -75,8 +75,8 @@ async def cb_handler(client, query: CallbackQuery):
 async def donate(client, message):
 	text = Txt.DONATE_TXT
 	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("🦋 Aᴅᴍɪɴ",url = "http://t.me/GaaraFx"), 
-        			InlineKeyboardButton("✖️ Cʟᴏsᴇ",callback_data = "close") ]])
+        			[InlineKeyboardButton("◎ ᴀᴅᴍɪɴ ◎",url = "http://t.me/GaaraFx"), 
+        			InlineKeyboardButton("◎ ᴄʟᴏsᴇ ◎",callback_data = "close") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
