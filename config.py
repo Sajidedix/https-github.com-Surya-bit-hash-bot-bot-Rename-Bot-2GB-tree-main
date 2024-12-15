@@ -29,14 +29,14 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """Hᴇʟʟᴏ {} Bᴀʙᴜ 👋
+    START_TXT = """Hy {} Bᴀʙᴜ 🫠
 ╭────────────⋗
-├⋗ I'ᴍ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ
-├⋗ Pᴏᴡᴇʀғᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.
-├⋗ Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Sᴇᴛ
-├⋗ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇs.
-├⋗ Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ
-├⋗ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.
+├⋗ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʏᴇᴛ
+├⋗ ᴘᴏᴡᴇƦҒᴜʟ ʀᴇɴᴀᴍᴇ ʙᴏᴛ.
+├⋗ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ sᴇᴛ
+├⋗ ᴛʜᴜᴍʙɴᴀɪʟ ᴏғ ʏᴏᴜʀ ғɪʟᴇs.
+├⋗ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴄᴏɴᴠᴇʀᴛ ᴠɪᴅᴇᴏ
+├⋗ ᴛᴏ ғɪʟᴇ ᴀɴᴅ ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ.
 ╰─────────────────⋗
 """
 
@@ -82,9 +82,9 @@ Aɴʏ Oᴛʜᴇʀ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/GaaraFx>De
 """
 
     DONATE_TXT = """
-<b>🥲 Tʜᴀɴᴋs Fᴏʀ Sʜᴏᴡɪɴɢ Iɴᴛᴇʀᴇsᴛ Iɴ Dᴏɴᴀᴛɪᴏɴ! ❤️</b>
+<b>🥲 ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ! ❤️</b>
 
-Iғ Yᴏᴜ Lɪᴋᴇ Mʏ Bᴏᴛs & Pʀᴏᴊᴇᴄᴛs, Yᴏᴜ Cᴀɴ 🎁 Dᴏɴᴀᴛᴇ Mᴇ Aɴʏ Aᴍᴏᴜɴᴛ Fʀᴏᴍ 1𝟶 Rs Uᴘᴛᴜ Yᴏᴜʀ Cʜᴏɪᴄᴇ.
+ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍʏ ʙᴏᴛs & ᴘʀᴏᴊᴇᴄᴛs, ʏᴏᴜ ᴄᴀɴ 🎁 ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ғʀᴏᴍ 𝟷𝟶 ʀs ᴜᴘᴛᴜ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ.
 
 <b>🛍 UPI ID:</b> `sajideditz27@okhdfcbank`
 """
@@ -92,11 +92,11 @@ Iғ Yᴏᴜ Lɪᴋᴇ Mʏ Bᴏᴛs & Pʀᴏᴊᴇᴄᴛs, Yᴏᴜ Cᴀɴ 🎁 D�
 
     SEND_METADATA = """<b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
 
-Fᴏʀ Exᴀᴍᴘʟᴇ :-
+ғᴏʀ ᴇxᴀᴍᴘʟᴇ! 
 
-<code>Bʏ :- @NarutoPublicST</code>
+<code>By ❃ @NarutoPublicST</code>
 
-💬 Fᴏʀ Aɴʏ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ @GaaraFx
+💬 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ @GaaraFx
 """
 
 
