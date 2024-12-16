@@ -6,10 +6,10 @@ from config import Txt
 
 
 
-ON = [[InlineKeyboardButton('Mᴇᴛᴀᴅᴀᴛᴀ Nɴ ✅', callback_data='metadata_1')], [
-    InlineKeyboardButton('Sᴇᴛ Cᴜsᴛᴏᴍ Mᴇᴛᴀᴅᴀᴛᴀ', callback_data='cutom_metadata')]]
-OFF = [[InlineKeyboardButton('Mᴇᴛᴀᴅᴀᴛᴀ Oғғ ❌', callback_data='metadata_0')], [
-    InlineKeyboardButton('Sᴇᴛ Cᴜsᴛᴏᴍ Mᴇᴛᴀᴅᴀᴛᴀ', callback_data='cutom_metadata')]]
+ON = [[InlineKeyboardButton('ᴍᴇᴛᴀᴅᴀᴛᴀ ɴɴ ', callback_data='metadata_1')], [
+    InlineKeyboardButton('sᴇᴛ ᴄᴜsᴛᴏᴍ ᴍᴇᴛᴀᴅᴀᴛᴀ', callback_data='cutom_metadata')]]
+OFF = [[InlineKeyboardButton('ᴍᴇᴛᴀᴅᴀᴛᴀ ᴏғғ ', callback_data='metadata_0')], [
+    InlineKeyboardButton('sᴇᴛ ᴄᴜsᴛᴏᴍ ᴍᴇᴛᴀᴅᴀᴛᴀ', callback_data='cutom_metadata')]]
 
 
 @Client.on_message(filters.private & filters.command('metadata'))
@@ -20,8 +20,8 @@ async def handle_metadata(bot: Client, message: Message):
     user_metadata = await jishubotz.get_metadata_code(message.from_user.id)
     await ms.delete()
     if bool_metadata:
-        return await message.reply_text(f"**Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Mᴇᴛᴀᴅᴀᴛᴀ :-**\n\n➜ `{user_metadata}` ",quote=True, reply_markup=InlineKeyboardMarkup(ON))
-    return await message.reply_text(f"**Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Mᴇᴛᴀᴅᴀᴛᴀ :-**\n\n➜ `{user_metadata}` ",quote=True, reply_markup=InlineKeyboardMarkup(OFF))
+        return await message.reply_text(f"**Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Mᴇᴛᴀᴅᴀᴛᴀ ❃**\n\n➜ `{user_metadata}` ",quote=True, reply_markup=InlineKeyboardMarkup(ON))
+    return await message.reply_text(f"**Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Mᴇᴛᴀᴅᴀᴛᴀ ❃**\n\n➜ `{user_metadata}` ",quote=True, reply_markup=InlineKeyboardMarkup(OFF))
 
 
 @Client.on_callback_query(filters.regex('.*?(custom_metadata|metadata).*?'))
@@ -35,11 +35,11 @@ async def query_metadata(bot: Client, query: CallbackQuery):
 
         if bool(eval(_bool)):
             await jishubotz.set_metadata(query.from_user.id, bool_meta=False)
-            await query.message.edit(f"**Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Mᴇᴛᴀᴅᴀᴛᴀ :-**\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(OFF))
+            await query.message.edit(f"**Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Mᴇᴛᴀᴅᴀᴛᴀ ❃**\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(OFF))
 
         else:
             await jishubotz.set_metadata(query.from_user.id, bool_meta=True)
-            await query.message.edit(f"**Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Mᴇᴛᴀᴅᴀᴛᴀ :-**\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(ON))
+            await query.message.edit(f"**Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Mᴇᴛᴀᴅᴀᴛᴀ ❃**\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(ON))
 
     elif data == 'cutom_metadata':
         await query.message.delete()
