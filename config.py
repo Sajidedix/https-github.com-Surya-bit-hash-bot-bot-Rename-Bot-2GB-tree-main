@@ -43,7 +43,7 @@ class Txt(object):
     ABOUT_TXT = """
 ╭───────────⋗
 ├⋗<b>🤖 Mʏ Nᴀᴍᴇ</b> : {}
-├⋗<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/SAJIID>亗 ᏚᎪᎫⵊᎠ ƑƑ</a> 
+├⋗<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/SAJIIDFF>亗 ᏚᎪᎫⵊᎠ ƑƑ</a> 
 ├⋗<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⋗<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>     
 ╰─────────────────⋗
