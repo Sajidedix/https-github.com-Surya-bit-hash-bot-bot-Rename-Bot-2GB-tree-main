@@ -19,7 +19,7 @@ class Config(object):
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6170962395').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "NarutoPublicST") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "SandVillage") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002353049842"))
 
     # wes response configuration     
@@ -43,7 +43,7 @@ class Txt(object):
     ABOUT_TXT = """
 ╭───────────⋗
 ├⋗<b>🤖 Mʏ Nᴀᴍᴇ</b> : {}
-├⋗<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/GaaraFx>Sᴀᴊɪᴅ</a> 
+├⋗<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/SAJIID>Sᴀᴊɪᴅ</a> 
 ├⋗<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
 ├⋗<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>Pʏᴛʜᴏɴ 𝟹</a>     
 ╰─────────────────⋗
@@ -71,7 +71,7 @@ class Txt(object):
 
 ➪ Sᴇɴᴛ Aɴʏ Fɪʟᴇ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ Sᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ].           
 
-Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/GaaraFx>㊋ Ꮐ𝙰𝙰֟፝ؖ۬𝚁Ꭺ ㊋</a>
+Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/SAJIIDFF>亗 ᏚᎪᎫⵊᎠ ƑƑ</a>
 """
 
     PROGRESS_BAR = """\n
@@ -96,7 +96,7 @@ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/GaaraFx>㊋ Ꮐ𝙰𝙰֟፝
 
 <code>By ❃ @NarutoPublicST</code>
 
-💬 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ @GaaraFx
+💬 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ @SAJIIDFF
 """
 
 
