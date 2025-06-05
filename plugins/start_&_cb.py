@@ -43,7 +43,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.HELP_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("᯽ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᯽", url="http://t.me/SAJIIDFF")],
+                [InlineKeyboardButton("᯽ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᯽", url="http://t.me/iSASUKES7i")],
                 [InlineKeyboardButton("⪻ ʙᴀᴄᴋ", callback_data = "start"),
                 InlineKeyboardButton("ᴄʟᴏsᴇ ⪼", callback_data = "close")]
             ])            
@@ -75,7 +75,7 @@ async def cb_handler(client, query: CallbackQuery):
 async def donate(client, message):
 	text = Txt.DONATE_TXT
 	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("◎ ᴀᴅᴍɪɴ ◎",url = "http://t.me/SAJIIDFF"), 
+        			[InlineKeyboardButton("◎ ᴀᴅᴍɪɴ ◎",url = "http://t.me/iMSASUKES7i"), 
         			InlineKeyboardButton("◎ ᴄʟᴏsᴇ ◎",callback_data = "close") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
