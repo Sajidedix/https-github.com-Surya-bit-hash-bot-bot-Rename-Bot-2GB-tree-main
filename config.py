@@ -30,7 +30,7 @@ class Config(object):
 class Txt(object):
     # part of text configuration
     START_TXT = """Hᴇy {} Bᴀʙᴜ 🫠
-╭────────────⋗
+╭─────────────⋗
 ├⋗ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʏᴇᴛ
 ├⋗ ᴘᴏᴡᴇʀғᴜʟ ʀᴇɴᴀᴍᴇ ʙᴏᴛ.
 ├⋗ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ sᴇᴛ
@@ -41,12 +41,12 @@ class Txt(object):
 """
 
     ABOUT_TXT = """
-╭───────────⋗
-├⋗<b>🤖 Mʏ Nᴀᴍᴇ</b> : {}
-├⋗<b>🖥️ Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/SAJIIDFF>亗 ᏚᎪᎫⵊᎠ ƑƑ</a> 
-├⋗<b>📕 Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
-├⋗<b>✏️ Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>     
-╰─────────────────⋗
+╭────────────────⋗
+├⋗<b> Mʏ Nᴀᴍᴇ</b> : {}
+├⋗<b> Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/iSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a> 
+├⋗<b> Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
+├⋗<b> Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>     
+╰──────────────────⋗
 """
 
     HELP_TXT = """
@@ -71,7 +71,7 @@ class Txt(object):
 
 ➪ sᴇɴᴛ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ sᴇʟᴇᴄᴛ ᴛʜᴇ ғᴏʀᴍᴀᴛ [ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ ].           
 
-Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/SAJIIDFF>亗 ᏚᎪᎫⵊᎠ ƑƑ</a>
+Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ ❃<a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
 """
 
     PROGRESS_BAR = """\n
@@ -96,7 +96,7 @@ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=http://t.me/SAJIIDFF>亗 ᏚᎪᎫⵊᎠ
 
 <code>By ❃ @NarutoPublicST</code>
 
-💬 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ @SAJIIDFF
+💬 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ @iMSASUKES7i
 """
 
 
