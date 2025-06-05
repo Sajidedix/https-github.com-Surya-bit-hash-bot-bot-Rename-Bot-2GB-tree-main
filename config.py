@@ -61,7 +61,7 @@ class Txt(object):
 ➪ /set_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴛ A Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
 ➪ /see_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
 ➪ /del_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
-➪ Exᴀᴍᴘʟᴇ - <code>/Sᴇᴛ_Cᴀᴘᴛɪᴏɴ 📕 Nᴀᴍᴇ ➠ : {filename}
+➪ Exᴀᴍᴘʟᴇ - <code>/Set_caption 📕 Nᴀᴍᴇ ➠ : {filename}
 
 🔗 Sɪᴢᴇ ➠ : {filesize} 
 
