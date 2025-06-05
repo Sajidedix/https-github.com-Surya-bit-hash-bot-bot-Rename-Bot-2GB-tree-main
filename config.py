@@ -43,7 +43,7 @@ class Txt(object):
     ABOUT_TXT = """
 ╭────────────────⋗
 ├⋗<b> Mʏ Nᴀᴍᴇ</b> : {}
-├⋗<b> Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/iSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a> 
+├⋗<b> Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a> 
 ├⋗<b> Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⋗<b> Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>     
 ╰──────────────────⋗
@@ -71,7 +71,7 @@ class Txt(object):
 
 ➪ sᴇɴᴛ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ sᴇʟᴇᴄᴛ ᴛʜᴇ ғᴏʀᴍᴀᴛ [ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ ].           
 
-Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ ❃<a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
+Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ ⌯ <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
 """
 
     PROGRESS_BAR = """\n
