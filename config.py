@@ -44,8 +44,8 @@ class Txt(object):
 ╭────────────────⋗
 ├⋗<b> Mʏ Nᴀᴍᴇ</b> : {}
 ├⋗<b> Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a> 
-├⋗<b> Lɪʙʀᴀʀʏ</b> : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
-├⋗<b> Lᴀɴɢᴜᴀɢᴇ</b> : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>     
+├⋗<b> Gʀᴏᴜᴘ Cʜᴀᴛ</b> : <a href=https://t.me/SANDVILLAGE>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
+├⋗<b> Cʜᴀɴɴᴇʟ</b> : <a href=https://t.me/NARUTO_PUBLIC>𝐍𝐀𝐑𝐔𝐓𝐎 🌀</a>     
 ╰──────────────────⋗
 """
 
