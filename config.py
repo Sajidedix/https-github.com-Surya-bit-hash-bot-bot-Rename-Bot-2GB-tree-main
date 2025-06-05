@@ -70,8 +70,7 @@ class Txt(object):
 ✏️ <b><u>ʜᴏᴡ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴀ ғɪʟᴇ</u></b>
 
 ➪ sᴇɴᴛ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ sᴇʟᴇᴄᴛ ᴛʜᴇ ғᴏʀᴍᴀᴛ [ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ ].           
-
-Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ ⌯ <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
+Aɴʏ Qᴜᴇʀʏ ⌯ <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
 """
 
     PROGRESS_BAR = """\n
